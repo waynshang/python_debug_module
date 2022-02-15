@@ -1,6 +1,6 @@
-Metadata-Version: 1.0
+Metadata-Version: 2.1
 Name: debuggerModule
-Version: 0.3
+Version: 0.4
 Summary: A package for create debug modules
 Home-page: UNKNOWN
 Author: Wayne Shang
@@ -30,5 +30,20 @@ Description: # Python Debug Module
         
         PyPi page: (https://pypi.org/project/debuggerModule/)
         
+        Change Log
+        ==========
+        
+        0.1 (14/02/2022)
+        -------------------
+        - First Release
+        
+        0.3 (15/02/2022)
+        -------------------
+        - Add new feature save to log file
+        
+        0.4 (15/02/2022)
+        -------------------
+        - Update setup.py README format
 Keywords: debug
 Platform: UNKNOWN
+Description-Content-Type: text/markdown
