@@ -1,0 +1,18 @@
+Metadata-Version: 1.0
+Name: debuggerModule
+Version: 0.1
+Summary: A package for create debug modules
+Home-page: UNKNOWN
+Author: Wayne Shang
+Author-email: wayne18308@gmail.com
+License: MIT
+Description: This is a package to print log with color
+        
+        There are five different type
+        1. logging.DEBUG: green
+        2. logging.INFO: blue
+        3. logging.WARNING: yellow
+        4. logging.ERROR: red
+        5. logging.CRITICAL: bold_red
+Keywords: debug
+Platform: UNKNOWN
