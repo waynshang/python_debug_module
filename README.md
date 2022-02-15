@@ -1,18 +1,18 @@
-# Python Debug Module #
+# Python Debug Module
 
-### Install ###
+### Install
 ``` 
 pip install debuggerModule
 ```
 
-### Example ###
+### Example
 ```python
 from debugger import getLogger
 DEBUG = getLogger()
 DEBUG.INFO("log")
 ```
 
-### Types ###
+### Types
 1. logging.DEBUG: green
 2. logging.INFO: blue
 3. logging.WARNING: yellow
