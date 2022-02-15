@@ -37,9 +37,12 @@ class CustomFormatter(logging.Formatter):
 
 
 
-def getLogger():
-  LOGGER = logging.getLogger("stock")
-  LOGGER.setLevel(logging.DEBUG)
+def getLogger(filename=None):
+  FORMAT = "%(asctime)s: %(message)s (%(filename)s:%(lineno)d)"
+  logging.basicConfig(level=logging.DEBUG)
+  if filename:
+    logging.basicConfig(filename=filename, filemode='w', format=FORMAT)
+  LOGGER = logging.getLogger()
   # create console handler with a higher log level
   ch = logging.StreamHandler()
   ch.setLevel(logging.DEBUG)

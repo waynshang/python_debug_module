@@ -1,7 +1,7 @@
 CHANGELOG.txt
 LICENCE.txt
 MANIFEST.in
-README.txt
+README.md
 setup.py
 debugger/__init__.py
 debuggerModule.egg-info/PKG-INFO

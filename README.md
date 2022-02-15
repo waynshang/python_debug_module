@@ -8,7 +8,8 @@ pip install debuggerModule
 ### Example
 ```python
 from debugger import getLogger
-DEBUG = getLogger()
+#log filename option
+DEBUG = getLogger('filename')
 DEBUG.INFO("log")
 ```
 

@@ -9,9 +9,9 @@ classifier = [
 
 setup(
   name='debuggerModule',
-  version='0.01',
+  version='0.3',
   description='A package for create debug modules',
-  long_description=open('README.txt').read(),
+  long_description=open('README.md').read(),
   author='Wayne Shang',
   author_email='wayne18308@gmail.com',
   license='MIT',
